@@ -14,9 +14,9 @@ export default defineNuxtConfig({
   // server side rendering mode
   ssr: true,
   target: 'static',
-//   router: {
-//     base: '/blackshoretech.com/',
-//   },
+  //   router: {
+  //     base: '/blackshoretech.com/',
+  //   },
 
   // app
   app: {
@@ -92,7 +92,7 @@ export default defineNuxtConfig({
     vueI18n: {
       locale: 'en',
       fallbackLocale: 'en',
-      availableLocales: ['en', 'id', 'ja', 'ko'],
+      availableLocales: ['en'],
     },
   },
 

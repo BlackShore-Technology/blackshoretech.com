@@ -87,9 +87,7 @@ const toggleOptions = (show?: boolean) => {
             >
               <span class="sr-only">home</span>
               <span class="flex items-center">
-                <IconSimpleIcons:nuxtdotjs
-                  class="inline-block mr-2 text-lg text-primary-500"
-                />
+                <div class="logo-image" />
                 {{ app.name }}
               </span>
             </NuxtLink>
@@ -145,6 +143,9 @@ const toggleOptions = (show?: boolean) => {
 </template>
 
 <style lang="scss">
+.logo-image {
+  background-image: url('/~@assets/images/logo.png');
+}
 .slide-fade-from-up-enter-active {
   transition: all 0.3s ease-out;
 }
