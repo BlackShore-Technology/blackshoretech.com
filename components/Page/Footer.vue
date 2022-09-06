@@ -14,13 +14,13 @@ const app = useState<IApp>('app')
         </div>
         <div class="text-xs text-gray-600 dark:text-gray-400">
           Copyright © 2022 <a :href="app.author.link">{{ app.author.name }}</a
-          >. All rights reserved. Made with <span class="text-red-500">❤</span>
+          >. All rights reserved.
           <div
             class="flex flex-col md:flex-row space-x-2 items-center md:float-right"
           >
-            <span class="text-center md:text-right">
+            <!-- <span class="text-center md:text-right">
               design by <a href="https://github.com/viandwi24">viandwi24</a>
-            </span>
+            </span> -->
           </div>
         </div>
       </div>
