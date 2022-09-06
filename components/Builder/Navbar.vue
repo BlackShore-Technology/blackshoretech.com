@@ -144,7 +144,7 @@ const toggleOptions = (show?: boolean) => {
 
 <style lang="scss">
 .logo-image {
-  background-image: url('/~@assets/images/logo.png');
+  background-image: url('@/assets/images/logo.png');
 }
 .slide-fade-from-up-enter-active {
   transition: all 0.3s ease-out;
